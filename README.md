@@ -14,19 +14,17 @@ Some info on the plugins:
   Replace Mead Storm will only replace mead if it sees there is 2.1 hours left.
   Attack khan does not replenish your defences alone.
 
-What you need to do to use (Windows):
-  https://github.com/darrenthebozz/GGE-BOT/releases/download/Release3/installer.exe
 
 What you need to do to use (Other OS):
 1. Install Git.
 1. Grab the latest version of NodeJS.
-4. Goto the directory of the bot in and run in the terminal.
+4. Go to the directory of the bot in and run in the terminal.
 5. ./start.sh
 
 For Discord: https://youtu.be/3-Oil6N4OCU
 1. https://discord.com/developers/applications to create a bot.
-2. Within your application in Settings goto Bot from there you will find Presence Intent enable all of them from here you will
-also find Token goto the ggeConfig and place it under discordToken.
+2. Within your application in Settings go to Bot from there you will find Presence Intent enable all of them from here you will
+also find Token go to the ggeConfig and place it under discordToken.
 3. Proceed to General Information and scroll down till you see Application ID place it under discordClientId.
 4. Next head to Oauth2 and take the Client Secret and within ggeconfig place it under discordClientSecret.
 5. In the same section you'll see redirects take the discordPort and add these links:
